@@ -1,0 +1,4 @@
+venv/
+faiss_index/
+.env
+temp/
