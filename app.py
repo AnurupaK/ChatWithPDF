@@ -29,7 +29,7 @@ def get_whisper(audio_file_path):
     """Transcribe audio into text using Whisper."""
     with open(audio_file_path, "rb") as audio_file:
         response = client.audio.transcriptions.create(
-            model="whisper-large-v3",
+            model="whisper-large-v3-turbo",
             file=audio_file,
             language="en"
         )
