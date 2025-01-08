@@ -87,7 +87,7 @@ def user_input(user_question):
 def record_voice(file_path):
     """Record voice using a microphone and save it as a .wav file."""
     st.write("Recording... Speak now!")
-    duration = 5  # Duration in seconds
+    duration = 2  # Duration in seconds
     fs = 16000  # Sample rate
     recorded_data = sd.rec(int(duration * fs), samplerate=fs, channels=1, dtype='int16')
     sd.wait()  # Wait until recording is finished
