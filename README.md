@@ -70,7 +70,7 @@ Follow these steps to get the app running on your local system:
 
 ## 🎥 **Demo**
 
-
+https://github.com/user-attachments/assets/75bc1363-c9a8-4d4f-bcfa-5b2502aec331
 ---
 
 Happy Chatting & Talking with PDFs! 🎉📖🗣️
